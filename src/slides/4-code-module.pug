@@ -1,0 +1,18 @@
+section(data-background-color='#446971')
+  p Code Exemplo!
+  pre
+    code.typescript.
+        @NgModule({
+            imports: [
+                RouterModule.forChild(routerConfigProduct),
+            ],
+            declarations: [
+                ProductComponent,
+                RegisterProductComponent
+            ],
+            providers: [
+                ProductService
+            ],
+            exports: [RouterModule, ProductComponent]
+        })
+        export class ProductModule{}

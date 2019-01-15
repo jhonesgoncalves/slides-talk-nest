@@ -1,0 +1,10 @@
+section(data-background-color='#446971')
+  p Code Exemplo!
+  pre
+    code.typescript.
+       { path: 'product', component: LayoutComponent, children:[
+            { 
+                path: '', 
+                loadChildren: 'app/product/product.module#ProductModule'
+            }
+       ]}
